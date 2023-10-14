@@ -46,7 +46,7 @@
                    FontSize="18"
                    HorizontalTextAlignment="Center"
                    HeightRequest="80"
-                   x:Name="AritmeticResult"/>
+                   x:Name="ArithmeticResult"/>
 
             <Grid>
                 <Grid.RowDefinitions>
@@ -62,18 +62,22 @@
                             Padding="40"
                             Margin="10"
                             FontSize="30"
-                            FontAttributes="Bold"/>
+                            FontAttributes="Bold"
+                            Clicked="Addition"/>
                     
                     <Button Text="-" 
                             Padding="40"
                             Margin="10"
                             FontSize="30"
-                            FontAttributes="Bold"/>
+                            FontAttributes="Bold"
+                            Clicked="Substract"/>
+                    
                     <Button Margin="10"
                             Padding="10"
                             Text="Limpiar"
                             FontSize="20"
-                            BackgroundColor="#333"/>
+                            BackgroundColor="#333"
+                            Clicked="Reset"/>
                 </VerticalStackLayout>
 
                 <VerticalStackLayout Grid.Column="1" Margin="15">
@@ -81,19 +85,22 @@
                             Padding="40"
                             Margin="10"
                             FontSize="30"
-                            FontAttributes="Bold"/>
+                            FontAttributes="Bold"
+                            Clicked="Multiply"/>
                     
                     <Button Text="/" 
                             Padding="40"
                             Margin="10"
                             FontSize="30"
-                            FontAttributes="Bold"/>
+                            FontAttributes="Bold"
+                            Clicked="Division"/>
 
                     <Button Margin="10"
                             Padding="10"
                             Text="Salir"
                             FontSize="20"
-                            BackgroundColor="#333"/>
+                            BackgroundColor="#333"
+                            Clicked="Exit"/>
                 </VerticalStackLayout>
             </Grid>
 
