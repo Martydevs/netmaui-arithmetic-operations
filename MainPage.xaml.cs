@@ -26,5 +26,15 @@ public partial class MainPage : ContentPage
     {
 
     }
+
+    private void Exit(object sender, EventArgs e)
+    {
+
+    }
+
+    private void Reset(object sender, EventArgs e)
+    {
+
+    }
 }
 
